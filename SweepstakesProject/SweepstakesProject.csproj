@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contestant.cs" />
+    <Compile Include="..\SweepStakes_Project\SweepstakesProject\Contestant.cs">
+      <Link>Contestant.cs</Link>
+    </Compile>
+    <Compile Include="ISweepstakesManager.cs" />
     <Compile Include="MarketingFirm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
