@@ -1,0 +1,7 @@
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\bin\Debug\SweepstakesProject.exe.config
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\bin\Debug\SweepstakesProject.exe
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\bin\Debug\SweepstakesProject.pdb
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\obj\Debug\SweepstakesProject.csprojAssemblyReference.cache
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\obj\Debug\SweepstakesProject.csproj.CoreCompileInputs.cache
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\obj\Debug\SweepstakesProject.exe
+C:\Users\Matthew Trau\source\repos\SweepstakesProject\SweepStakes_Project\SweepstakesProject\obj\Debug\SweepstakesProject.pdb

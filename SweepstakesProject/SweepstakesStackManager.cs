@@ -8,7 +8,12 @@ namespace SweepstakesProject
 {
     class SweepstakesStackManager : ISweepstakesManager
     {
-        //use Stack data structure
+        Stack<Sweepstakes> sweepstakesStack = new Stack<Sweepstakes>();
+
+        public void InsertSweepstakes(Sweepstakes sweepstake)
+        {
+            sweepstakesStack.Push(sweepstake);
+        }
 
     }
 }

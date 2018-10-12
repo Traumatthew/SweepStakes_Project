@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,13 @@ namespace SweepstakesProject
 {
     class SweepstakesQueueManager : ISweepstakesManager
     {
+        public Queue<Sweepstakes> sweepstakeQueue = new Queue<Sweepstakes>();
+
+        public void InsertSweepstakes(Sweepstakes sweepstake)
+        {
+            sweepstakeQueue.Enqueue(sweepstake);
+        }
+
+
     }
 }
