@@ -15,5 +15,10 @@ namespace SweepstakesProject
             sweepstakesStack.Push(sweepstake);
         }
 
+        public Sweepstakes GetSweepstakes()
+        {
+            return sweepstakesStack.Pop();
+        }
+
     }
 }

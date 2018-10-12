@@ -34,16 +34,15 @@ namespace SweepstakesProject
         {
             Random random = new Random();
             int IndexOfWinner = random.Next(0, contestantCounter);
-            //return contestants[IndexOfWinner].lastName;
-            if (IndexOfWinner == contestant.registrationNumber)
-                return winner;
+            return contestants[IndexOfWinner].emailAddress;
+            
             
             
         }
 
         public string PrintContestantInfo(Contestant contestant)
         {
-            contestantInformation.PickWinner = ToString.contestant.firstName + contestant.lastName;
+            contestantInformation = String.Format(contestant.firstName, contestant.lastName);
             return contestantInformation;
         }
     }

@@ -8,9 +8,15 @@ namespace SweepstakesProject
 {
     class MarketingFirm : ISweepstakesManager
     {
-        public void StartNewSweepstakes(Sweepstakes sweepstakes)
+        public Sweepstakes GetSweepstakes()
         {
-
+            throw new NotImplementedException();
         }
+
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+            throw new NotImplementedException();
+        }
+        
     }
 }

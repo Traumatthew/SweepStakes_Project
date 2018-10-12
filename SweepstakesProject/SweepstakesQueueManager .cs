@@ -16,6 +16,10 @@ namespace SweepstakesProject
             sweepstakeQueue.Enqueue(sweepstake);
         }
 
+        public Sweepstakes GetSweepstakes()
+        {
+            return sweepstakeQueue.Dequeue();
+        }
 
     }
 }
